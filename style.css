@@ -1,0 +1,245 @@
+/* Для экранов от 1600px */
+@media (min-width: 1600px) {
+    header {
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    h1 {
+        background-color: rgb(232, 66, 6);
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-family: Russo One;
+        font-size: 44px;
+    }
+
+    main {
+        width: 60%;
+        margin: auto;
+        margin-top: 18%;
+    }
+    .left {
+        width: 15%;
+        position: fixed;
+    }
+    .right {
+        border: 1px solid rgb(232, 66, 6);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        margin-left:  30%;
+        padding: 10px;
+    }
+    h2 {
+        border-bottom: 2px solid rgb(232, 66, 6);
+        color: rgb(232, 66, 6);
+        text-align: right;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        font-family: Cuprum;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .right p {
+        text-align: justify;
+        font-family: Arsenal;
+        font-size: 18px;
+    }
+    .item {
+        border: 1px solid rgb(232, 66, 6);
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        color: rgb(232, 66, 6);
+        cursor: pointer;
+        transition: 0.5;
+        font-family: Cuprum;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .item:hover {
+        background-color: rgb(232, 66, 6);
+        color: white;
+        transition: 0.5s;
+    }
+
+    .home, .up, .theme {
+        border: 1px solid rgb(232, 66, 6);
+        font-size: 24px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        padding: 5px;
+        color: rgb(232, 66, 6);
+        cursor: pointer;
+        transition: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home:hover, .up:hover, .theme:hover {
+        background-color: rgb(232, 66, 6);
+        color: white;
+        transition: 0.5s;
+    }
+    .home {
+        position: fixed;
+        top: 36%;
+        left: 81%;
+    }
+    .up {
+        position: fixed;
+        top: 36%;
+        left: 84%;
+    }
+    .theme {
+        position: fixed;
+        top: 36%;
+        left: 87%;
+    }
+    a {
+        color: rgb(232, 66, 6);
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+    }
+
+    .night {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* Для экранов до 420px */
+@media (max-width: 420px) {
+    header {
+        position: fixed;
+        top: 0px;
+        background-color: white;
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    h1 {
+        background-color: rgb(232, 66, 6);
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-family: Russo One;
+        font-size: 24px;
+    }
+
+    main {
+        width: 96%;
+        margin: auto;
+        margin-top: 31%;
+    }
+    .left {
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+
+
+    }
+    .right {
+        border: 1px solid rgb(232, 66, 6);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        padding: 10px;
+        margin-bottom: 45px;
+    }
+    h2 {
+        border-bottom: 2px solid rgb(232, 66, 6);
+        color: rgb(232, 66, 6);
+        text-align: right;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        font-family: Cuprum;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .right p {
+        text-align: justify;
+        font-family: Arsenal;
+        font-size: 14px;
+    }
+    .item {
+        border: 1px solid rgb(232, 66, 6);
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+        color: rgb(232, 66, 6);
+        cursor: pointer;
+        transition: 0.5;
+        font-family: Cuprum;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .item:hover {
+        background-color: rgb(232, 66, 6);
+        color: white;
+        transition: 0.5s;
+    }
+    .home, .up, .theme {
+        border: 1px solid rgb(232, 66, 6);
+        font-size: 18px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        padding: 5px;
+        color: rgb(232, 66, 6);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home {
+        position: fixed;
+        bottom: 20px;
+        left: 30px;
+        background-color: rgb(232, 66, 6);
+        color: white;
+    }
+    .up {
+        position: fixed;
+        bottom: 20px;
+        left: 70px;
+        background-color: rgb(232, 66, 6);
+        color: white;
+    }
+    .theme {
+        position: fixed;
+        bottom: 20px;
+        left: 110px;
+        background-color: rgb(232, 66, 6);
+        color: white;
+    }
+    .home:hover, .up:hover, .theme:hover {
+        font-size: 24px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+    }
+    .night {
+        background-color: black;
+        color: white;
+    }
+}
